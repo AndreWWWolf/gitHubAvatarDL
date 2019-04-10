@@ -19,5 +19,6 @@
   "homepage": "https://github.com/AndreWWWolf/gitHubAvatarDL#readme",
   "dependencies": {
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {}
 }
