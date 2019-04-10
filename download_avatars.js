@@ -28,7 +28,7 @@ function downloadImageByURL(url, filePath) {
     })
     .pipe(fs.createWriteStream(filePath));
 }
-downloadImageByURL('INSERT URL HERE', './images/i.jpg');
+downloadImageByURL("https://avatars2.githubusercontent.com/u/2741?v=3&s=466", "images/kvirani.jpg")
 getRepoContributors("jquery", "jquery", function(err, result) {
   console.log(result);
 });
